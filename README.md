@@ -6,14 +6,14 @@
 
 #### Moves must be entered in something called "algebraic notation", the standard notation used to record chess games. The rules for this notation are briefly described below:
 - Pieces are represented by the following letters:
- - Kings: K
- - Queens: Q
- - Rooks: R
- - Bishops: B
- - Knights: N
+  - Kings: K
+  - Queens: Q
+  - Rooks: R
+  - Bishops: B
+  - Knights: N
 - When a piece moves to a square, the move is entered and recorded as the letter of the piece followed by the square. Here are some examples:
- - Knight moves to the f3 square: Nf3
- - Queen moves to e5: Qe5
+  - Knight moves to the f3 square: Nf3
+  - Queen moves to e5: Qe5
 - Pawns don't technically count as "pieces" in chess, so pawn moves are recorded with just the square the pawn is moving to (ex: e4 means a pawn moves to the e4 square)
 - When a piece captures something on a square, this is represented by the piece letter, followed by the letter x, then the square (ex: Bxf7 means the bishop captures something on the f7 square)
 - Castling kingside is represented as 0-0, and queenside castling is represented as 0-0-0. Note: while it is common to use the digit 0, the letter O is sometimes used too
