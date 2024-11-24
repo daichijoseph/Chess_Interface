@@ -1,12 +1,12 @@
 # C++ Chess Interface
 
-###### As an avid chess player and a computer science major in college, it has always been my goal to build something chess-related. This, along with my ambition to graduate from C to C++, has lead me to work on this passion project in my spare time.
+##### As an avid chess player and a computer science major in college, it has always been my goal to build something chess-related. This, along with my ambition to graduate from C to C++, has lead me to work on this passion project in my spare time.
 
-###### This is a simple command line chess interface I've created. Running the make command creates a chess board made of text on the command line. File and rank names are printed at the left side and bottom, the board is set properly for a chess game, and white is prompted to move. Distinct color/piece combinations are represented using two letters: the first expressing the color, and the second expressing the piece. That is, a white pawn is represented on the board as "wp", while a black king is represented as "bK". While this is technically enough information to play a chess game, this alone would make everything hard to see. Hence, I've colored the board and pieces by applying ANSI codes to text colors and backgrounds.
+##### This is a simple command line chess interface I've created. Running the make command creates a chess board made of text on the command line. File and rank names are printed at the left side and bottom, the board is set properly for a chess game, and white is prompted to move. Distinct color/piece combinations are represented using two letters: the first expressing the color, and the second expressing the piece. That is, a white pawn is represented on the board as "wp", while a black king is represented as "bK". While this is technically enough information to play a chess game, this alone would make everything hard to see. Hence, I've colored the board and pieces by applying ANSI codes to text colors and backgrounds.
 
 !(initializedBoard.png)
 
-###### Moves must be entered in something called "algebraic notation", the standard notation used to record chess games. The rules for this notation are briefly described below:
+##### Moves must be entered in something called "algebraic notation", the standard notation used to record chess games. The rules for this notation are briefly described below:
 - **Pieces are represented by the following letters:**
   - Kings: K
   - Queens: Q
