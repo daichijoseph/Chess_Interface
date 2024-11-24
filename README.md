@@ -14,6 +14,8 @@
 
 #### At the moment, only pawn moves are possible. However, every pawn move (besides check and checkmating moves) have been accounted for including en passant and promotion.
 
+### Algebraic Notation
+
 #### Moves must be entered in something called "algebraic notation", the standard notation used to record chess games. The rules for this notation are briefly described below:
 - **Pieces are represented by the following letters:**
   - Kings: K
@@ -24,10 +26,10 @@
 - **When a piece moves to a square, the move is recorded as the letter of the piece followed by the square. Here are some examples:**
   - Knight moves to the f3 square: Nf3
   - Queen moves to e5: Qe5
-- **Pawns don't technically count as "pieces" in chess, so pawn moves are recorded with just the square the pawn is moving to (ex: e4 means a pawn moves to the e4 square)**
+- **Pawns don't technically count as "pieces" in chess, so pawn moves are recorded with just the square the pawn is moving to (ex: e4 means a pawn on the e file moves forward to the e4 square)**
 - **When a piece captures something on a square, this is represented by the piece letter, followed by the letter x, then the square (ex: Bxf7 means the bishop captures something on the f7 square)**
-- **When a pawn captures something, in place of its piece name (because it has none), a the letter of the file it was on is entered; the rest is the same as above (ex: if the pawn on e4 takes the pawn on d5, this is recorded as exd5)**
-- **Castling kingside is represented as 0-0, and queenside castling is represented as 0-0-0. Note: while it is common to use the digit 0, the letter O is sometimes used too**
+- **When a pawn captures something, in place of its piece name (because it has none), the letter of the file it was on is entered; the rest is the same as above (ex: if the pawn on d4 takes the pawn on e5, this is recorded as dxe5)**
+- **Castling kingside is represented as 0-0, and castling queenside is represented as 0-0-0. Note: while it is common to use the digit 0, the letter O is sometimes used too**
 - **Check is represented by adding a "+" to a move (ex: Queen moves to h5 with check is recorded as Qh5+)**
 - **Checkmate is represented by adding a "#" to a move (ex: Queen takes on f2 delivering checkmate is recorded as Qxf2#)**
 - **Finally, when a pawn reaches the end of the board and promotes, this is represented by writing the move, an equals sign, and the letter of the piece the pawn promotes to (ex: if the pawn on a7 reaches a8 and becomes a knight, this is recorded as a8=N)**
