@@ -12,6 +12,8 @@
 ## Instructions for running and interacting:
 #### To make the executable, enter the "make" command in the command line. This will create an executable file named chess, which can be run by entering ./chess.
 
+#### At the moment, only pawn moves are possible. However, every pawn move (besides check and checkmating moves) have been accounted for including en passant and promotion.
+
 #### Moves must be entered in something called "algebraic notation", the standard notation used to record chess games. The rules for this notation are briefly described below:
 - **Pieces are represented by the following letters:**
   - Kings: K
@@ -30,5 +32,3 @@
 - **Checkmate is represented by adding a "#" to a move (ex: Queen takes on f2 delivering checkmate is recorded as Qxf2#)**
 - **Finally, when a pawn reaches the end of the board and promotes, this is represented by writing the move, an equals sign, and the letter of the piece the pawn promotes to (ex: if the pawn on a7 reaches a8 and becomes a knight, this is recorded as a8=N)**
 
-
-#### At the moment, only pawn moves are possible. However, every pawn move (besides check and checkmating moves) have been accounted for including en passant and promotion.
