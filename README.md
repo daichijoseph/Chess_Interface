@@ -6,7 +6,7 @@
 
 ![Initialized Chess Board](initializedBoard.png)
 
-## Note:
+### Note:
 #### This project is deliberately raw, and the code is probably not optimal in terms of logical structure. There are also a few files that are completely useless, contrary to my original intent. This is because I made it a point not to look up too tutorials or read other peoples' implementations. I wanted to see what it would be like to represent the rules of chess from the ground up. One day, I hope to perhaps work in developing chess-related software professionally; until then, this is my starting project!
 
 ## Instructions for running and interacting:
